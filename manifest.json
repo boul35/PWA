@@ -1,0 +1,9 @@
+{
+    "name": "Matrix PWA",
+    "short_name": "Matrix",
+    "icons" : [],
+    "start_url": "/index.hmtl",
+    "display": "standalone",
+    "background_color" : "#ffffff",
+    "theme_color": "#e2888d"
+ }
