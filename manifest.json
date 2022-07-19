@@ -7,12 +7,12 @@
     "background_color": "#ffffff",
     "description": "Matrix Fans website.",
     "icons": [{
-        "src": "PWA/blob/main/images/icons/maskable_icon_x192.png",
+        "src": "blob/main/images/icons/maskable_icon_x192.png",
         "sizes": "192x192",
         "type": "img/png",
         "purpose": "maskable"
     }, {
-        "src": "PWA/blob/main/images/icons/maskable_icon_x512.png",
+        "src": "blob/main/images/icons/maskable_icon_x512.png",
         "sizes": "512x512",
         "type": "img/png",
         "purpose": "maskable"
