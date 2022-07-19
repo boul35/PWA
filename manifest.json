@@ -1,5 +1,5 @@
 {
-    
+
     "name": "The Matrix Fan",
     "short_name": "Matrix Fan",
     "start_url": "index.html",
@@ -7,13 +7,15 @@
     "background_color": "#ffffff",
     "description": "Matrix Fans website.",
     "icons": [{
-      "src": "PWA/blob/main/images/icons/maskable_icon_x192.png",
-      "sizes": "192x192",
-      "type": "maskable"
+        "src": "PWA/blob/main/images/icons/maskable_icon_x192.png",
+        "sizes": "192x192",
+        "type": "img/png",
+        "purpose": "maskable"
     }, {
-      "src": "PWA/blob/main/images/icons/maskable_icon_x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+        "src": "PWA/blob/main/images/icons/maskable_icon_x512.png",
+        "sizes": "512x512",
+        "type": "img/png",
+        "purpose": "maskable"
     }]
-   
-  }
+
+}
