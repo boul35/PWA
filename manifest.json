@@ -1,10 +1,10 @@
 {
-    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    
     "name": "The Matrix Fan",
     "short_name": "Matrix Fan",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#fff",
+    "background_color": "#ffffff",
     "description": "Matrix Fans website.",
     "icons": [{
       "src": "PWA/blob/main/images/icons/maskable_icon_x192.png",
@@ -12,7 +12,7 @@
       "type": "maskable"
     }, {
       "src": "PWA/blob/main/images/icons/maskable_icon_x512.png",
-      "sizes": "72x72",
+      "sizes": "512x512",
       "type": "image/png"
     }]
    
