@@ -15,6 +15,17 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/742e442523.js" crossorigin="anonymous"></script>
+  <script>
+    // Register service worker.
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js')
+          .then((reg) => {
+            console.log('Notre service worker est chargé!.', reg);
+          });
+      });
+    }
+  </script>
   <title>Site Web informatif du le film la Matrice</title>
 </head>
 
@@ -156,7 +167,7 @@
           </form>
 
         </div>
-     
+
         <div class="row posters">
 
           <div class="col-xl-4 col-md-6  "><img src="./images/poster1.webp" class="img-fluid "
@@ -167,21 +178,20 @@
               alt="Poster Alternatif du film la Matrice 2"></div>
 
 
-            
+
 
           <div class="col-xl-6 col-md-6 offset-xl-3 ">
 
-            <iframe  src="https://www.youtube.com/embed/O5b0ZxUWNf0" title="YouTube video player"
-              frameborder="0"
+            <iframe src="https://www.youtube.com/embed/O5b0ZxUWNf0" title="YouTube video player" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen class="video"></iframe>
           </div>
           <hr>
         </div>
       </div>
-      </div>
-  
-    
+    </div>
+
+
   </section>
 
 
@@ -308,7 +318,7 @@
           <hr>
         </div>
       </div>
-      </div>
+    </div>
   </section>
 
   <section>
