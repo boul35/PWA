@@ -16,6 +16,11 @@
         "sizes": "512x512",
         "type": "img/png",
         "purpose": "maskable"
+    },{
+        "src": "images/icons/coffe-icon.png",
+        "sizes": "144x144",
+        "type": "img/png",
+        "purpose": " any maskable"
     }]
 
 }
