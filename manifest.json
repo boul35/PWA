@@ -21,7 +21,7 @@
         "src": "images/icons/coffee-icon.png",
         "sizes": "144x144",
         "type": "img/png",
-        "purpose": " maskable any"
+        "purpose": "any maskable"
     }]
 
 }
